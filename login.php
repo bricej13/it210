@@ -38,7 +38,6 @@ if (isset($_POST['username']) && isset($_POST['password'])){
 else
 print_login_form();
 
-
 function check_pass($pass, $row) {
 	$salt = $row['username'];
 	while (strlen($salt) < 8)
@@ -77,7 +76,7 @@ function get_uid($user){
 	global $con;
 	$JSON = file_get_contents('js/bracket.json');
 	$JSON = json_decode($JSON, true);
-	
+
 	$query = "SELECT * FROM `users` WHERE username='$user'";
 	$row = mysql_fetch_assoc(mysql_query($query));
 	$name = $row['displayname'];
