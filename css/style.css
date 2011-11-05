@@ -1,0 +1,111 @@
+body {
+	/*background: url("../images/bg.png") #e3e3e3 no-repeat;*/
+	background: #E3E3E3;
+	font-family: 'Questrial', sans-serif;
+}
+button {
+}
+button:active {
+}
+td {
+	height: 60px;
+
+}
+.seed:hover {
+	box-shadow: 0px 0px 3px black;
+}
+.seed {
+	/*border: black solid 1px;*/
+	width: 100px;
+	background: #abc8e4;
+	border-radius: 5px;
+}
+#game_chooser img:hover {
+	box-shadow: 0px 0px 3px black;
+}
+#game_chooser img {
+	border-radius: 10px;
+}
+.right {
+}
+
+.left {
+}
+#bracket {
+	display: none;
+}
+.play{
+	color: #FFF;
+	text-align: center;
+}
+.rd_2 {
+	background: #628CB6;
+}
+.rd_3 {
+	background: #336699;
+}
+.semis {
+	width:80%;
+	margin-left:auto;
+	margin-right: auto;
+}
+.finals {
+	width: 60%;
+	margin-left:auto;
+	margin-right: auto;
+}
+td.image img{
+	height: 100%;
+}
+td.desc {
+}
+div.seed {
+	width: 100%;
+}
+table {
+	width: 100%;
+	margin: 0px;
+	table-layout: fixed;
+}
+#seed_14 {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	background: #003366;
+	color: white;
+	box-shadow: inset 0px 0px 3px black;
+	height: 100%;
+}
+.empty {
+	height: 69px;
+}
+#banner {
+	color: #d8d8d8;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 64px;
+	text-align: center;
+	font-family: 'Fontdiner Swanky', cursive;
+	background-color: #94140c;
+	background: url('../images/header.jpg');
+	text-shadow: 2px 2px 7px #111;
+	border-radius:10px;
+	margin-bottom: 20px;
+	box-shadow:inset 0px 0px 5px #000000;
+}
+
+#game_overlay {
+	width: 100%;
+}
+#game_container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+#game_frame {
+	border: none;
+}
+.form {
+	text-align:center;
+}

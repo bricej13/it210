@@ -1,0 +1,68 @@
+*{padding: 0; margin: 0;}
+
+
+body{
+  font-family: Verdana, Tahoma, Arial, sans-serif;font-size: 62.5%;
+  color: #000;background-color: #e3e3e3;text-align: center;
+}
+
+
+div#board_title{
+  margin: 0 auto; text-align: center; font-weight: 900;color: #cc0000;
+  font-size: 3em;width: 300px; margin-bottom: .5em;
+}
+
+
+div#board{margin: 0 auto;width: 27.4em;height: 27.4em;}
+div#board div{
+  float: left;border: solid 0.2em #ce5c00;cursor: pointer;
+  width: 8.6em;height: 8.6em; line-height: 8.6em;
+}
+div#board div#square0,div#board div#square1,
+div#board div#square3,div#board div#square4,
+div#board div#square6,div#board div#square7{border-left: 0; border-top: 0;}
+div#board div#square2,div#board div#square5,
+div#board div#square8{border-right: 0; border-top: 0; border-left: 0;}
+div#board div#square6,div#board div#square7,
+div#board div#square8{border-bottom: 0;}
+/*div#board div.player1,
+div#info div#board_info div.player1{background: url("../images/ttt_x.gif") no-repeat center center; color: #fff;}
+div#board div.player2,
+div#info div#board_info div.player2{background: url("../images/ttt_o.gif") no-repeat center center;}*/
+div#board div.win{background-color: #ffff99;}
+div#board div.clear{background: none;}
+
+
+div#info{margin: 0 auto; width: 46em;}
+
+div#info div#board_console{
+  float: left;
+  width: 26.5em;
+  border: dashed .2em #cc0000;
+  padding: .4em;line-height: 2em;
+}
+div#info div#board_console span{
+  color: #fff;font-weight: 700;padding: .1em;
+}
+div#info div#board_console span.player1{background-color: #204a87;}
+div#info div#board_console span.player2{background-color: #4e9a06;}
+div#info div#board_console span.draw{background-color: #cc0000;}
+
+div#info div#board_control, div#info div#board_info{
+  float: right;
+  border: solid .5em #ce5C00;
+  line-height: 1.8em;
+  padding: .2em;width: 16.5em;
+}
+div#info div#board_control input{
+  background-color: #ffffd4; border: solid .1em #e9b96e;
+  font-size: 1em; font-weight: 700; padding: .4em;
+}
+div#info div#board_control label.player{font-weight: 700; font-size: 2em;float: right;}
+div#info div#board_control label.one{color: #204a87;}
+div#info div#board_control label.two{color: #4e9a06;}
+div#info div#board_control label.draw{color: #cc0000;}
+div#info div#board_control span{float: left;}
+
+div#info div#board_info{margin-top: .4em; clear: right; height: 8em;color: #000;}
+div#info div#board_info div{height: 5.8em;background-position: center top;}

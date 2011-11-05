@@ -1,0 +1,22 @@
+#game_container {
+	
+}
+
+#con4_board table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#hud {
+	text-align: center;
+	font-family: sans-serif;
+	padding: 5px;
+}
+td {
+	height: inherit;
+	width: 50px;
+}
+
+table {
+	width: 0;
+}

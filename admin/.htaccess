@@ -1,0 +1,5 @@
+AuthUserFile /var/www/it210/admin/.htpasswd
+AuthName "Please Log In"
+AuthType Basic
+
+require user admin
